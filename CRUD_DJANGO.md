@@ -9,9 +9,9 @@ source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
 ```
 
-Instal **Django** dan **MySQL client**:
+Instal **Django**
 ```sh
-pip install django mysqlclient
+pip install django 
 ```
 
 ---
@@ -47,22 +47,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-### **B. Konfigurasi Database MySQL**
-Ganti pengaturan database di `settings.py`:
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_siswa',  # Ganti dengan nama database
-        'USER': 'root',       # Sesuaikan dengan user MySQL
-        'PASSWORD': '',       # Masukkan password MySQL
-        'HOST': 'localhost',  # Default: localhost
-        'PORT': '3306',       # Default: 3306
-    }
-}
-```
 
-> **Pastikan database `db_siswa` sudah dibuat di MySQL sebelum menjalankan migrasi.**
 
 ### **C. Konfigurasi Template**
 Tambahkan pengaturan folder **templates** agar Django bisa menemukan file HTML:  
