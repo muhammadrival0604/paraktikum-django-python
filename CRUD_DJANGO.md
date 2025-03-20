@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
 
 
-### **C. Konfigurasi Template**
+### **B. Konfigurasi Template**
 Tambahkan pengaturan folder **templates** agar Django bisa menemukan file HTML:  
 ```python
 import os
