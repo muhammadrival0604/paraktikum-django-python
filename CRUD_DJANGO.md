@@ -1,5 +1,5 @@
 
-## **1. Install Django dan MySQL Client**  
+## **1. Install Django**  
 Pastikan Python sudah terinstall. Jika belum, unduh dari [python.org](https://www.python.org/downloads/).
 
 Lalu, buat dan aktifkan virtual environment (opsional, tapi disarankan):  
